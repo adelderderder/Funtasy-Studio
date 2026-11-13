@@ -7,7 +7,9 @@ An independent creative playground exploring experimental typography, digital ar
 [![React](https://img.shields.io/badge/React-19-61DAFB?logo=react)](https://react.dev/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-Enabled-3178C6?logo=typescript)](https://www.typescriptlang.org/)
 [![Status](https://img.shields.io/badge/Project-In%20Development-c8ff36)](https://github.com/adelderderder/Funtasy-Studio)
+## Homepage Preview
 
+![FUNTASY STUDIO Homepage](public/funtasy-homepage.png)
 ---
 
 ## 1. Project Overview
