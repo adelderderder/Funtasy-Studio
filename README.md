@@ -1,36 +1,204 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# FUNTASY STUDIO®
+### Independent Creative Universe
 
-## Getting Started
+An independent creative playground exploring experimental typography, digital art, graphic design, and visual experiences.
 
-First, run the development server:
+[![Next.js](https://img.shields.io/badge/Next.js-16-black?logo=next.js)](https://nextjs.org/)
+[![React](https://img.shields.io/badge/React-19-61DAFB?logo=react)](https://react.dev/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-Enabled-3178C6?logo=typescript)](https://www.typescriptlang.org/)
+[![Status](https://img.shields.io/badge/Project-In%20Development-c8ff36)](https://github.com/adelderderder/Funtasy-Studio)
+
+---
+
+## 1. Project Overview
+
+**FUNTASY STUDIO** is a personal creative universe and digital design platform built to showcase original creative works and develop a space for digital product distribution.
+
+The project combines experimental visual design, typography, and interactive web experiences into one creative destination.
+
+It is designed to become a portfolio and digital marketplace where visitors can explore creative projects, discover original typefaces, and eventually purchase digital assets.
+
+## 2. Vision & Objectives
+
+Our vision is to build an independent creative platform that connects visual experimentation with accessible digital products.
+
+### Key Objectives
+
+- Showcase original typography and font collections.
+- Present graphic design, illustration, and digital artwork.
+- Build an engaging and interactive portfolio experience.
+- Develop a digital font foundry and product catalog.
+- Support local and international audiences.
+- Establish a foundation for future digital product sales.
+
+## 3. Current Features & Development Status
+
+### Implemented
+
+- [x] Initial Next.js application setup.
+- [x] TypeScript configuration.
+- [x] Tailwind CSS integration.
+- [x] Dark experimental visual direction.
+- [x] Responsive homepage structure.
+- [x] Navigation and homepage sections.
+- [x] Animated visual elements.
+- [x] Selected Works section.
+- [x] Font Foundry showcase section.
+- [x] About and Contact sections.
+- [x] Basic SEO metadata.
+- [x] ESLint validation.
+- [x] TypeScript validation.
+- [x] Initial GitHub repository setup.
+
+### Planned
+
+- [ ] Interactive font preview tool.
+- [ ] Custom text input and typography controls.
+- [ ] Individual font detail pages.
+- [ ] Original font file integration (OTF/TTF).
+- [ ] Artwork and project detail pages.
+- [ ] Digital product purchasing system.
+- [ ] Payment integration for Indonesian and international customers.
+- [ ] Product licensing and download delivery.
+- [ ] SEO optimization and performance improvements.
+- [ ] Deployment to a public production domain.
+
+## 4. Technology Stack
+
+| Technology | Purpose |
+|---|---|
+| Next.js 16 | React framework and application architecture |
+| React 19 | User interface development |
+| TypeScript | Type-safe application development |
+| Tailwind CSS | Styling foundation |
+| CSS | Custom styling and animations |
+| ESLint | Code quality and linting |
+| Git & GitHub | Version control and collaboration |
+
+## 5. Design Direction
+
+The current visual identity follows a **Dark + Experimental** art direction.
+
+Key visual principles:
+
+- Dark backgrounds and high-contrast typography.
+- Lime accent colors.
+- Oversized experimental typography.
+- Asymmetric editorial layouts.
+- Abstract visual compositions.
+- Motion and animation.
+- Responsive layouts for different screen sizes.
+
+The design aims to create a distinctive experience inspired by contemporary digital portfolios and experimental creative websites.
+
+## 6. Getting Started
+
+### Prerequisites
+
+Make sure you have installed:
+
+- Node.js (LTS recommended)
+- npm
+- Git
+
+### Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/adelderderder/Funtasy-Studio.git
+```
+
+Navigate to the project directory:
+
+```bash
+cd Funtasy-Studio
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Start the development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open your browser:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```text
+http://localhost:3000
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### Code Validation
 
-## Learn More
+Run ESLint:
 
-To learn more about Next.js, take a look at the following resources:
+```bash
+npm run lint
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Run TypeScript validation:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+```bash
+npx tsc --noEmit
+```
 
-## Deploy on Vercel
+## 7. Project Structure
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+```text
+Funtasy-Studio/
+├── public/
+│   └── Static assets
+├── src/
+│   └── app/
+│       ├── favicon.ico
+│       ├── globals.css
+│       ├── layout.tsx
+│       └── page.tsx
+├── .gitignore
+├── AGENTS.md
+├── eslint.config.mjs
+├── next.config.ts
+├── package.json
+├── package-lock.json
+├── README.md
+└── tsconfig.json
+```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 8. Development Roadmap
+
+| Phase | Focus | Status |
+|---|---|---|
+| Phase 1 | Project foundation and setup | Completed |
+| Phase 2 | Homepage and visual identity | Completed |
+| Phase 3 | Interactive font foundry | Planned |
+| Phase 4 | Artwork portfolio and detail pages | Planned |
+| Phase 5 | Digital product marketplace | Planned |
+| Phase 6 | Payment and delivery integration | Planned |
+| Phase 7 | Testing, optimization, and deployment | Planned |
+
+## 9. Project Status
+
+**Current Stage: Foundation & Homepage Development Completed**
+
+The initial application foundation and primary homepage experience are implemented.
+
+The project is currently moving toward its interactive typography experience and digital product platform.
+
+This repository is actively developed, and features may evolve as the project progresses.
+
+## 10. Repository
+
+GitHub: https://github.com/adelderderder/Funtasy-Studio
+
+Branch: `main`
+
+---
+
+**FUNTASY STUDIO®**
+
+*Independent by nature. Creative by default.*
